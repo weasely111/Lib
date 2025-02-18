@@ -3631,17 +3631,3 @@ end;
 
 Players.PlayerAdded:Connect(OnPlayerChange);
 Players.PlayerRemoving:Connect(OnPlayerChange);
-
-local ThemeManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/weasely111/Lib/refs/heads/main/addons/ThemeManager.lua"))()
-local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/weasely111/Lib/refs/heads/main/addons/SaveManager"))()
-
-local Toggles = Library.Toggles
-local Options = Library.Options
-
-local Window = Library:CreateWindow({
-    Title = "Eagle Fisch",
-    Center = true,
-    AutoShow = true,
-    TabPadding = 7,
-    MenuFadeTime = 0.2
-})
