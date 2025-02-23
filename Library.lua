@@ -21,14 +21,14 @@ local Library = {
 	Registry = {};
 	RegistryMap = {};
 
+	HudRegistry = {};
+
 	FontColor = Color3.fromRGB(255, 255, 255);
 	MainColor = Color3.fromRGB(28, 28, 28);
 	BackgroundColor = Color3.fromRGB(20, 20, 20);
 	AccentColor = Color3.fromRGB(220, 220, 220);
 	OutlineColor = Color3.fromRGB(40, 40, 40);
 	RiskColor = Color3.fromRGB(255, 50, 50),
-
-	HudRegistry = {};
 
 	Black = Color3.new(0, 0, 0);
 	Font = Enum.Font.Code,
